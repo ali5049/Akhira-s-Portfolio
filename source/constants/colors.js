@@ -1,7 +1,7 @@
 export const MAIN_COLOR = '#EF7D00';
 export const WHITE = '#ffffff';
 export const TRANSPARENT_WHITE = 'rgba(255,255,255,0.4)';
-export const LESS_TRANSPARENT_WHITE = 'rgba(255,255,255,0.8)';
+export const LESS_TRANSPARENT_WHITE = 'rgba(255,255,255,0.7)';
 export const GREEN = '#3B9781';
 export const BLACK = '#000000';
 export const GRAY = '#9CA3AF';

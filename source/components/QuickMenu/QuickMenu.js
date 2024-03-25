@@ -2,7 +2,12 @@ import {FlatList, StyleSheet, Platform, View, Text, Image} from 'react-native';
 import React from 'react';
 import {hp, responsiveFontSize, wp} from '../../utils/responsiveSizes';
 import {useMenu} from '../../CustomeHooks/useMenu';
-import {BLACK, LESS_TRANSPARENT_WHITE, WHITE} from '../../constants/colors';
+import {
+  BLACK,
+  GREEN,
+  LESS_TRANSPARENT_WHITE,
+  WHITE,
+} from '../../constants/colors';
 import LinearGradient from 'react-native-linear-gradient';
 import {semibold} from '../../constants/fonts';
 
@@ -10,9 +15,9 @@ const Item = ({item}) => {
   return (
     <View style={styles.cardContainer}>
       <LinearGradient
-        start={{x: 0.7, y: 0}}
-        end={{x: 1, y: 0}}
-        colors={[WHITE, LESS_TRANSPARENT_WHITE]}
+        start={{x: 0.5, y: 0}}
+        end={{x: 1, y: 1}}
+        colors={[WHITE, WHITE, LESS_TRANSPARENT_WHITE]}
         style={styles.card}>
         <View>
           <Text style={styles.title}>{item?.title} </Text>
