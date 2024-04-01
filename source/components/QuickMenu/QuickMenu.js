@@ -50,6 +50,7 @@ export default QuickMenu;
 const styles = StyleSheet.create({
   container: {
     marginTop: hp(20),
+    paddingHorizontal: wp(15),
   },
   columnWrapper: {
     justifyContent: 'space-between',

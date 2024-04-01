@@ -3,7 +3,7 @@ import React from 'react';
 import {semibold} from '../../constants/fonts';
 import {GREEN, TRANSPARENT_WHITE, WHITE} from '../../constants/colors';
 import {useProgressBar} from '../../CustomeHooks/useProgressBar';
-import {hp, responsiveFontSize} from '../../utils/responsiveSizes';
+import {hp, responsiveFontSize, wp} from '../../utils/responsiveSizes';
 
 const ProgressBar = () => {
   const {data, donationsPercentage} = useProgressBar();
@@ -33,7 +33,8 @@ export default ProgressBar;
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: hp(20),
+    marginTop: hp(30),
+    paddingHorizontal: wp(15),
   },
   textsContainer: {
     flexDirection: 'row',

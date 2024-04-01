@@ -43,6 +43,9 @@ const EmergencyResponse = () => {
 export default EmergencyResponse;
 
 const styles = StyleSheet.create({
+  container: {
+    paddingLeft: wp(15),
+  },
   card: {
     width: wp(300),
     height: hp(240),

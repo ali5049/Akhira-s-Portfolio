@@ -35,6 +35,7 @@ export default Calculator;
 const styles = StyleSheet.create({
   container: {
     marginTop: hp(10),
+    paddingLeft: wp(15),
   },
   heading: {
     fontSize: responsiveFontSize(16),

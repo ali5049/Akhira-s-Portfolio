@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    paddingHorizontal: wp(15),
+    // paddingHorizontal: wp(15),
   },
   mainScroll: {
     flex: 1,

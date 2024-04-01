@@ -25,6 +25,7 @@ const Home = () => {
         <FlatList
           style={styles.mainScroll}
           contentContainerStyle={styles.contentContainer}
+          showsVerticalScrollIndicator={false}
           ListFooterComponent={
             <>
               <ProgressBar />
